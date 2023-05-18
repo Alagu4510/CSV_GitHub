@@ -1,4 +1,2 @@
 2023-05-18 15:31:09.056701: Fetching info for Alagu4510/Program-Test
 2023-05-18 15:31:09.577991: Successfully processed Alagu4510/Program-Test
-2023-05-18 15:31:09.577991: Fetching info for Afi08/aafioops
-2023-05-18 15:31:10.843710: Successfully processed Afi08/aafioops
