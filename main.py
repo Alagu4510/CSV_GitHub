@@ -66,9 +66,14 @@ def process_csv(input_csv, output_folder):
     return output_csv, log_file
 
 
-input_csv = input("Enter the path to the input CSV file: ")
-output_folder = input("Enter the path to the output folder: ")
+def main():
+    input_csv = input("Enter the path to the input CSV file: ")
+    output_folder = input("Enter the path to the output folder: ")
 
-output_csv, log_file = process_csv(input_csv, output_folder)
-print(f"Output CSV file saved to: {output_csv}")
-print(f"Log file saved to: {log_file}")
+    output_csv, log_file = process_csv(input_csv, output_folder)
+    print(f"Output CSV file saved to: {output_csv}")
+    print(f"Log file saved to: {log_file}")
+
+if __name__ == "__main__":
+    main()
+
